@@ -1,6 +1,8 @@
 #include <iostream>
 #include <chrono>
 #include <fstream>
+#include <string>
+#define NOMINMAX
 #include <windows.h>
 
 using namespace std;

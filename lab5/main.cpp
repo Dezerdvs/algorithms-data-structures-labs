@@ -1,5 +1,7 @@
 #include <iostream>
 #include <vector>
+#include <string>
+#define NOMINMAX
 #include <windows.h>
 
 #include <chrono>

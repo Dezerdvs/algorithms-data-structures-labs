@@ -2,6 +2,7 @@
 #include <vector>
 #include <chrono>
 #include <fstream>
+#define NOMINMAX
 #include "windows.h"
 
 using namespace std;

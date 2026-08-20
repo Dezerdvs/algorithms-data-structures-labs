@@ -1,4 +1,5 @@
 #include <iostream>
+#include <string>
 #include "AVLTree.h"
 #include "RedBlackTree.h"
 #include <chrono>
