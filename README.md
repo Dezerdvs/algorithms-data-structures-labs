@@ -1,5 +1,7 @@
 # Algorithms & Data Structures Labs (C++)
 
+![CI](https://github.com/Dezerdvs/algorithms-data-structures-labs/actions/workflows/ci.yml/badge.svg)
+
 A collection of classic data structure and algorithm implementations written from scratch in C++, built for a university Algorithms & Data Structures course. Each lab is self-contained and benchmarks its own implementation.
 
 ## What's inside

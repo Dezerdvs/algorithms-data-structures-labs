@@ -1,0 +1,30 @@
+name: CI
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+
+jobs:
+  build:
+    runs-on: windows-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: ilammy/msvc-dev-cmd@v1
+
+      - name: Compile every lab
+        shell: pwsh
+        run: |
+          $failed = $false
+          $labs = Get-ChildItem -Directory | Where-Object { Test-Path (Join-Path $_.FullName "main.cpp") }
+          foreach ($lab in $labs) {
+            Write-Host "=== Building $($lab.Name) ==="
+            $cppFiles = Get-ChildItem -Path $lab.FullName -Filter *.cpp | ForEach-Object { $_.FullName }
+            Push-Location $lab.FullName
+            cl /EHsc /std:c++17 /nologo $cppFiles /Fe:build.exe
+            if ($LASTEXITCODE -ne 0) { $script:failed = $true }
+            Pop-Location
+          }
+          if ($failed) { exit 1 }
