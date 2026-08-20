@@ -1,0 +1,28 @@
+<mxfile host="app.diagrams.net" modified="2023-05-13T22:29:49.427Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/112.0" etag="3mwHAHA0RFffJapcA8Lw" version="21.2.9" type="device">
+  <diagram name="Сторінка-1" id="SMboB5uCTfrHHy1rr1p7">
+    <mxGraphModel dx="677" dy="672" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="SmdjQxtNQTMbceERg-dq-47" value="Cherga" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;strokeColor=#ff8000;strokeWidth=2;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="591" y="361" width="158" height="173" as="geometry" />
+        </mxCell>
+        <mxCell id="SmdjQxtNQTMbceERg-dq-48" value="&lt;div&gt;- size: int&lt;/div&gt;&lt;div&gt;- head: Node*&lt;br&gt;&lt;/div&gt;" style="text;strokeColor=#ff8000;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;strokeWidth=2;rounded=0;" vertex="1" parent="SmdjQxtNQTMbceERg-dq-47">
+          <mxGeometry y="26" width="158" height="46" as="geometry" />
+        </mxCell>
+        <mxCell id="SmdjQxtNQTMbceERg-dq-50" value="&lt;div&gt;&lt;div&gt;+ push(data)&lt;/div&gt;&lt;div&gt;+ isEmpty(): bool&lt;/div&gt;+ clear()&lt;/div&gt;&lt;div&gt;+ Cherga()&lt;/div&gt;&lt;div&gt;+ getSize(): int&lt;/div&gt;&lt;div&gt;+ pop(): int&lt;/div&gt;" style="text;strokeColor=#ff8000;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;strokeWidth=0;rounded=0;glass=0;shadow=0;" vertex="1" parent="SmdjQxtNQTMbceERg-dq-47">
+          <mxGeometry y="72" width="158" height="101" as="geometry" />
+        </mxCell>
+        <mxCell id="SmdjQxtNQTMbceERg-dq-51" value="PriorityCherga" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;strokeColor=#ff8000;strokeWidth=2;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="593" y="546" width="158" height="173" as="geometry" />
+        </mxCell>
+        <mxCell id="SmdjQxtNQTMbceERg-dq-52" value="&lt;div&gt;- size: int&lt;/div&gt;&lt;div&gt;- head: Node*&lt;br&gt;&lt;/div&gt;" style="text;strokeColor=#ff8000;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;strokeWidth=2;rounded=0;" vertex="1" parent="SmdjQxtNQTMbceERg-dq-51">
+          <mxGeometry y="26" width="158" height="46" as="geometry" />
+        </mxCell>
+        <mxCell id="SmdjQxtNQTMbceERg-dq-53" value="&lt;div&gt;&lt;div&gt;+ push(data, priority)&lt;/div&gt;&lt;div&gt;+ isEmpty(): bool&lt;/div&gt;+ clear()&lt;/div&gt;&lt;div&gt;+ PriorityCherga()&lt;/div&gt;&lt;div&gt;+ getSize(): int&lt;/div&gt;&lt;div&gt;+ pop(): int&lt;/div&gt;" style="text;strokeColor=#ff8000;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;strokeWidth=0;rounded=0;glass=0;shadow=0;" vertex="1" parent="SmdjQxtNQTMbceERg-dq-51">
+          <mxGeometry y="72" width="158" height="101" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
